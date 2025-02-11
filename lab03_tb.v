@@ -163,7 +163,7 @@ module datapath_tb;
         test_case(32'h00000027, 32'hFFFFFFFF, 32'h0001, 1'b1, 32'h0000, 1'b1, 1'b0, 1'b0, 1'b0, 2'b10, 1'b0, 1'b0, 1'b1);
 
         $write("\tTest Case 7: addi ...");
-        test_case(32'h20000004, 32'hFFFFFFFB, 32'h0004, 1'b0, 32'hFFFFFFFF, 1'b0, 1'b0, 1'b0, 1'b0, 2'b10, 1'b0, 1'b1, 1'b1);
+        test_case(32'h20000004, 32'hFFFFFFFB, 32'h0004, 1'b0, 32'hFFFFFFFF, 1'b0, 1'b0, 1'b0, 1'b0, 2'b00, 1'b0, 1'b1, 1'b1);
 
         $write("\tTest Case 8: lw ...");
         test_case(32'h8C000020, 32'h000000FF, 32'h0020, 1'b0, 32'h011F, 1'b0, 1'b0, 1'b1, 1'b1, 2'b00, 1'b0, 1'b1, 1'b1);
