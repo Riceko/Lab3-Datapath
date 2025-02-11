@@ -89,7 +89,7 @@ begin
             mem_read   = 0;
             mem_write  = 0;
             branch     = 0;
-            alu_op     = 2'b10; 
+            alu_op     = 2'b00; 
         end
         default: begin
             reg_dst    = 0;
